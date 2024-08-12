@@ -1,0 +1,30 @@
+/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --main-font: "Inter-Variable";
+  --accent-font: "PressStart2P";
+
+  --card-txt-font-weight: 465;
+  --card-title-font-weight: 785;
+  --bg-color: #000;
+  --accent-color: #00cc14;
+  --btn-text-color: var(--accent-color);
+  --background-image: repeating-linear-gradient(
+      0grad,
+      #000,
+      #000 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      #000,
+      #000 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    linear-gradient(#007f0c, #004306);
+  --content-section-width: 48%;
+  /* heart icon variables */
+  --heart-icon-contour-color: var(--accent-color);
+  --heart-icon-red-color: #ff0000;
+}
